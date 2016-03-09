@@ -24,8 +24,6 @@
 		A23AB3A71AC8EA3E001FB22D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3A11AC8EA3D001FB22D /* CoreVideo.framework */; };
 		A23AB3A81AC8EA3E001FB22D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3A21AC8EA3E001FB22D /* EventKit.framework */; };
 		A23AB3A91AC8EA3E001FB22D /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3A31AC8EA3E001FB22D /* EventKitUI.framework */; };
-		A23AB3B31AC8EA84001FB22D /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3AA1AC8EA84001FB22D /* libc++abi.dylib */; };
-		A23AB3B41AC8EA84001FB22D /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3AB1AC8EA84001FB22D /* libiconv.2.4.0.dylib */; };
 		A23AB3B61AC8EA84001FB22D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3AD1AC8EA84001FB22D /* MapKit.framework */; };
 		A23AB3B71AC8EA84001FB22D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3AE1AC8EA84001FB22D /* MediaPlayer.framework */; };
 		A23AB3B81AC8EA84001FB22D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AB3AF1AC8EA84001FB22D /* NotificationCenter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -105,13 +103,9 @@
 		A23E856B1AB2EF6200DE6D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7D0F1AB01CCE00DE6D3D /* Foundation.framework */; };
 		A23E856C1AB2EF6200DE6D3D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7D0D1AB01CBF00DE6D3D /* Security.framework */; };
 		A23E856D1AB2EF6200DE6D3D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7D0B1AB01CB500DE6D3D /* CFNetwork.framework */; };
-		A23E856E1AB2EF6200DE6D3D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7D091AB01CAF00DE6D3D /* libresolv.dylib */; };
-		A23E856F1AB2EF6200DE6D3D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7D071AB01C9E00DE6D3D /* libxml2.dylib */; };
-		A23E85711AB2F01500DE6D3D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E85701AB2F01500DE6D3D /* libiconv.dylib */; };
 		A23E85751AB2F13F00DE6D3D /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23E7CDA1AB01C7100DE6D3D /* libidn.a */; };
 		A2403A7A1B144D4800674EC3 /* ChatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403A791B144D4800674EC3 /* ChatTextField.m */; };
 		A2403A7D1B14556600674EC3 /* EmoticonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403A7C1B14556600674EC3 /* EmoticonView.m */; };
-		A2403A7F1B146BA100674EC3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2403A7E1B146BA100674EC3 /* libz.dylib */; };
 		A2403A821B1552F700674EC3 /* EmoticonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2403A811B1552F700674EC3 /* EmoticonCollectionViewCell.m */; };
 		A2403D051B15848300674EC3 /* 00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2403C2F1B15848300674EC3 /* 00.jpg */; };
 		A2403D061B15848300674EC3 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2403C301B15848300674EC3 /* 01.jpg */; };
@@ -484,15 +478,12 @@
 		A23AB3941AC8EA0A001FB22D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A23AB3951AC8EA0A001FB22D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		A23AB3961AC8EA0A001FB22D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		A23AB3971AC8EA0A001FB22D /* libsystem_network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_network.dylib; path = usr/lib/system/libsystem_network.dylib; sourceTree = SDKROOT; };
 		A23AB39E1AC8EA3D001FB22D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A23AB39F1AC8EA3D001FB22D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A23AB3A01AC8EA3D001FB22D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		A23AB3A11AC8EA3D001FB22D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		A23AB3A21AC8EA3E001FB22D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		A23AB3A31AC8EA3E001FB22D /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
-		A23AB3AA1AC8EA84001FB22D /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
-		A23AB3AB1AC8EA84001FB22D /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
 		A23AB3AC1AC8EA84001FB22D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		A23AB3AD1AC8EA84001FB22D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A23AB3AE1AC8EA84001FB22D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -624,8 +615,6 @@
 		A23E7CD91AB01C7100DE6D3D /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
 		A23E7CDA1AB01C7100DE6D3D /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		A23E7CDB1AB01C7100DE6D3D /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
-		A23E7D071AB01C9E00DE6D3D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		A23E7D091AB01CAF00DE6D3D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		A23E7D0B1AB01CB500DE6D3D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A23E7D0D1AB01CBF00DE6D3D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A23E7D0F1AB01CCE00DE6D3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -649,14 +638,12 @@
 		A23E85621AB2C5EC00DE6D3D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A23E85661AB2CFDA00DE6D3D /* PullingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullingTableView.h; sourceTree = "<group>"; };
 		A23E85671AB2CFDA00DE6D3D /* PullingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullingTableView.m; sourceTree = "<group>"; };
-		A23E85701AB2F01500DE6D3D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		A23E85731AB2F10600DE6D3D /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		A23E85741AB2F10600DE6D3D /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		A2403A781B144D4800674EC3 /* ChatTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTextField.h; sourceTree = "<group>"; };
 		A2403A791B144D4800674EC3 /* ChatTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTextField.m; sourceTree = "<group>"; };
 		A2403A7B1B14556600674EC3 /* EmoticonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonView.h; sourceTree = "<group>"; };
 		A2403A7C1B14556600674EC3 /* EmoticonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonView.m; sourceTree = "<group>"; };
-		A2403A7E1B146BA100674EC3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A2403A801B1552F700674EC3 /* EmoticonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonCollectionViewCell.h; sourceTree = "<group>"; };
 		A2403A811B1552F700674EC3 /* EmoticonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonCollectionViewCell.m; sourceTree = "<group>"; };
 		A2403C2F1B15848300674EC3 /* 00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00.jpg; sourceTree = "<group>"; };
@@ -1127,13 +1114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2403A7F1B146BA100674EC3 /* libz.dylib in Frameworks */,
 				A23AB3B81AC8EA84001FB22D /* NotificationCenter.framework in Frameworks */,
 				A25D32B91ADB9C95006F0274 /* LocalAuthentication.framework in Frameworks */,
 				A23AB39A1AC8EA0A001FB22D /* AudioToolbox.framework in Frameworks */,
 				A23AB3C31AC9282E001FB22D /* SystemConfiguration.framework in Frameworks */,
-				A23AB3B31AC8EA84001FB22D /* libc++abi.dylib in Frameworks */,
-				A23AB3B41AC8EA84001FB22D /* libiconv.2.4.0.dylib in Frameworks */,
 				A23AB3B61AC8EA84001FB22D /* MapKit.framework in Frameworks */,
 				A23AB3B71AC8EA84001FB22D /* MediaPlayer.framework in Frameworks */,
 				A23AB3B91AC8EA84001FB22D /* OpenGLES.framework in Frameworks */,
@@ -1154,13 +1138,10 @@
 				A23AB3911AC8E987001FB22D /* CoreFoundation.framework in Frameworks */,
 				A23AB38F1AC8E97C001FB22D /* CoreAudio.framework in Frameworks */,
 				A23E85751AB2F13F00DE6D3D /* libidn.a in Frameworks */,
-				A23E85711AB2F01500DE6D3D /* libiconv.dylib in Frameworks */,
 				A23E856A1AB2EF6200DE6D3D /* UIKit.framework in Frameworks */,
 				A23E856B1AB2EF6200DE6D3D /* Foundation.framework in Frameworks */,
 				A23E856C1AB2EF6200DE6D3D /* Security.framework in Frameworks */,
 				A23E856D1AB2EF6200DE6D3D /* CFNetwork.framework in Frameworks */,
-				A23E856E1AB2EF6200DE6D3D /* libresolv.dylib in Frameworks */,
-				A23E856F1AB2EF6200DE6D3D /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1593,9 +1574,6 @@
 				A25D426C1AE78171001F5F13 /* ExplainFile.h */,
 				A23E7C691AB01C1400DE6D3D /* XMPPFrameWork */,
 				A23AB3C21AC9282E001FB22D /* SystemConfiguration.framework */,
-				A23E85701AB2F01500DE6D3D /* libiconv.dylib */,
-				A23AB3AA1AC8EA84001FB22D /* libc++abi.dylib */,
-				A23AB3AB1AC8EA84001FB22D /* libiconv.2.4.0.dylib */,
 				A23AB3AC1AC8EA84001FB22D /* LocalAuthentication.framework */,
 				A23AB3AD1AC8EA84001FB22D /* MapKit.framework */,
 				A23AB3AE1AC8EA84001FB22D /* MediaPlayer.framework */,
@@ -1614,7 +1592,6 @@
 				A23AB3941AC8EA0A001FB22D /* AudioToolbox.framework */,
 				A23AB3951AC8EA0A001FB22D /* CoreImage.framework */,
 				A23AB3961AC8EA0A001FB22D /* CoreLocation.framework */,
-				A23AB3971AC8EA0A001FB22D /* libsystem_network.dylib */,
 				A23AB3901AC8E987001FB22D /* CoreFoundation.framework */,
 				A23AB38E1AC8E97C001FB22D /* CoreAudio.framework */,
 				A23AB38C1AC8E972001FB22D /* AVFoundation.framework */,
@@ -1624,9 +1601,6 @@
 				A23E7D0F1AB01CCE00DE6D3D /* Foundation.framework */,
 				A23E7D0D1AB01CBF00DE6D3D /* Security.framework */,
 				A23E7D0B1AB01CB500DE6D3D /* CFNetwork.framework */,
-				A23E7D091AB01CAF00DE6D3D /* libresolv.dylib */,
-				A2403A7E1B146BA100674EC3 /* libz.dylib */,
-				A23E7D071AB01C9E00DE6D3D /* libxml2.dylib */,
 			);
 			name = FrameWork;
 			sourceTree = "<group>";
@@ -2724,12 +2698,12 @@
 		A23E7C381AB0170000DE6D3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Hexun;
 				TargetAttributes = {
 					A23E7C3F1AB0170000DE6D3D = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = X4P5KW4G5C;
+						DevelopmentTeam = 2Z2A86N27K;
 					};
 					A23E7C581AB0170100DE6D3D = {
 						CreatedOnToolsVersion = 6.2;
@@ -3248,6 +3222,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fei Wu (76YVF944MA)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3267,7 +3242,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "af829860-7ff8-4ec2-a6c1-dd8c7f0ce783";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3322,7 +3297,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Wu (76YVF944MA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)//XMPPDemo/PrefixHeader.pch";
@@ -3339,8 +3316,9 @@
 					"$(SRCROOT)/XMPPDemo/Vendor/libidn",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rxz.XMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "af829860-7ff8-4ec2-a6c1-dd8c7f0ce783";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -3352,7 +3330,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Fei Wu (76YVF944MA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)//XMPPDemo/PrefixHeader.pch";
@@ -3369,8 +3349,9 @@
 					"$(SRCROOT)/XMPPDemo/Vendor/libidn",
 					"$(SDKROOT)/usr/lib/system",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rxz.XMPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "af829860-7ff8-4ec2-a6c1-dd8c7f0ce783";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -3390,6 +3371,7 @@
 				);
 				INFOPLIST_FILE = XMPPDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPDemo.app/XMPPDemo";
 			};
@@ -3405,6 +3387,7 @@
 				);
 				INFOPLIST_FILE = XMPPDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hx.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMPPDemo.app/XMPPDemo";
 			};
