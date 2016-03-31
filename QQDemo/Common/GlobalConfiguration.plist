@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>isTest</key>
+	<false/>
+	<key>naviURL</key>
+	<string>http://ydsports-media.image.alimmdn.com/ydi_yundongsports_release.jpg</string>
+	<key>naviURLTest</key>
+	<string>http://192.168.2.148:8080/yundongplatform/ydi_yundongsports_test.jpg</string>
+	<key>grp</key>
+	<string>yundongsports</string>
+	<key>expUrl</key>
+	<string></string>
+	<key>warmupUrl</key>
+	<string>http://ydsports-media.file.alimmdn.com/warmup.html</string>
+	<key>storeUrl</key>
+	<string>http://store.lining.com</string>
+	<key>liningUrl</key>
+	<string>http:/www.li-ning.com.cn</string>
+</dict>
+</plist>

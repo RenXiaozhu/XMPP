@@ -1,0 +1,45 @@
+//
+//  QQDemo-Prefix.pch
+//  QQDemo
+//
+//  Created by 任小柱 on 16/3/16.
+//  Copyright © 2016年 任小柱. All rights reserved.
+//
+
+#ifndef QQDemo_Prefix_pch
+#define QQDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "EXTScope.h"
+//#import "GlobalDefinition.h"
+#import "UtilityMacros.h"
+#import "ViewControllerBase.h"
+#import "NSString+Extension.h"
+#import "UIDevice+Hardware.h"
+#import "NSFileManager+Additions.h"
+#import "DDLog.h"
+#import "JsonSerializationKit.h"
+#import "JsonSerializableObject.h"
+#import "JSONKit.h"
+#import "UIDevice+Hardware.h"
+#import "NSFileManager+Additions.h"
+#import "UIView+Additions.h"
+#import "UIColor+Expanded.h"
+#import "UILabelExtention.h"
+#import "ResBundleUtils.h"
+#import "SVProgressHUD.h"
+//#import "XMPPManager.h"
+//#import "LoginHeader.h"
+//#import "UIButton+UIButtonExtension.h"
+//#import "UIView+Screenshot.h"
+#import "XMPPFramework.h"
+
+#endif
+
+#endif /* QQDemo_Prefix_pch */

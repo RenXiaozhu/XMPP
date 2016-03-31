@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>YUDRuningModel</key>
+	<dict>
+		<key>entiyClass</key>
+		<string>YUDRuningModel</string>
+		<key>version</key>
+		<integer>1</integer>
+	</dict>
+	<key>BascketBallDribbleRealTimeRecord</key>
+	<dict>
+		<key>entiyClass</key>
+		<string>BascketBallDribbleRealTimeRecord</string>
+		<key>version</key>
+		<integer>1</integer>
+	</dict>
+	<key>BascketBallDribbleStatisticsRecord</key>
+	<dict>
+		<key>entiyClass</key>
+		<string>BascketBallDribbleStatisticsRecord</string>
+		<key>version</key>
+		<integer>1</integer>
+	</dict>
+    <key>BascketBallPassRealTimeRecord</key>
+    <dict>
+        <key>entiyClass</key>
+        <string>BascketBallPassRealTimeRecord</string>
+        <key>version</key>
+        <integer>1</integer>
+    </dict>
+    <key>BascketBallPassStatisticsRecord</key>
+    <dict>
+        <key>entiyClass</key>
+        <string>BascketBallPassStatisticsRecord</string>
+        <key>version</key>
+        <integer>1</integer>
+    </dict>
+    <key>BascketBallShotRealTimeRecord</key>
+    <dict>
+        <key>entiyClass</key>
+        <string>BascketBallShotRealTimeRecord</string>
+        <key>version</key>
+        <integer>1</integer>
+    </dict>
+    <key>BascketBallShotStatisticsRecord</key>
+    <dict>
+        <key>entiyClass</key>
+        <string>BascketBallShotStatisticsRecord</string>
+        <key>version</key>
+        <integer>1</integer>
+    </dict>
+</dict>
+</plist>

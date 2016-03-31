@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--网络请求路径-->
+<plist version="1.0">
+    <dict>
+        <key>LoginService</key>
+        <string>user/login</string>
+    </dict>
+</plist>
