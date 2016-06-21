@@ -1,7 +1,11 @@
 
 language: objective-c
+
 before_install:
      - brew update
      - brew install xctool
-script: xctool -project QQDemo.xcodeproj -scheme 
-QQDemo -sdkiphonesimulator  test
+script: xctool -project QQDemo.xcodeproj 
+
+xcode_project: QQDemo.xcodeproj # 项目文件相对于.travis.yml文件的路径
+
+xcode_scheme: MyNewProjectTests #你需要集成测试的scheme
