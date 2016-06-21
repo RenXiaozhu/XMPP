@@ -3,5 +3,5 @@
 
 尚未完善
 
-[![Build Status](https://travis-ci.org/xianlinbox/iOSCIDemo.png)](https://travis-ci.
-org/xianlinbox/iOSCIDemo)
+[![Build Status](https://travis-ci.org/RenXiaozhu/XMPP)](https://travis-ci.
+org/RenXiaozhu/XMPP)
